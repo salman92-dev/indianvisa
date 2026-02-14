@@ -1,0 +1,52 @@
+project_id = "libpgwewfiawvekdtsga"
+
+[functions.test-email]
+verify_jwt = false
+
+[functions.paypal-config]
+verify_jwt = false
+
+[functions.paypal-create-order]
+verify_jwt = true
+
+[functions.paypal-capture-order]
+verify_jwt = true
+
+[functions.paypal-webhook]
+verify_jwt = false
+
+[functions.generate-receipt]
+verify_jwt = true
+
+[functions.send-payment-receipt]
+verify_jwt = true
+
+[functions.visa-application-save]
+verify_jwt = true
+
+[functions.visa-document-upload]
+verify_jwt = true
+
+[functions.send-thank-you-email]
+verify_jwt = true
+
+[functions.send-contact-form]
+verify_jwt = false
+
+[functions.send-registration-email]
+verify_jwt = true
+
+[functions.send-admin-payment-notification]
+verify_jwt = false
+
+[functions.send-visa-submission-admin]
+verify_jwt = true
+
+[functions.send-visa-submission-user]
+verify_jwt = true
+
+[functions.send-status-update]
+verify_jwt = true
+
+[functions.send-newsletter-subscription]
+verify_jwt = false
